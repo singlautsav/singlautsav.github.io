@@ -16,19 +16,38 @@
         <nav class="topNav">
             <ul class="navList">
                 <li>
-                    <a href ="/pages/about.html" class="navLink">About</a>
+                    <a href ="#about" class="navLink">About</a>
                 </li>
                 <li>
-                    <a href ="/pages/contact.html" class="navLink">Contact</a>
+                    <a href ="#services" class="navLink">Skills</a>
                 </li>
                 <li>
-                    <a href ="/pages/portfolio.html" class="navLink">Portfolio</a>
+                    <a href ="#portfolio" class="navLink">Portfolio</a>
                 </li>
+                <li>
+                    <a href ="#experience" class="navLink">Timeline</a>
+                </li>
+                <li>
+                    <a href ="#contact" class="navLink">Contact</a>
+                </li>
+                
             </ul>
         </nav>
 
         <div class="landingText">
-            <h1>Utsav Singla</h1>
+                <ul class="text hidden">
+                    <li>U</li>
+                    <li class="ghost">T</li>
+                    <li class="ghost">S</li>
+                    <li class="ghost">A</li>
+                    <li class="ghost">V</li>
+                    <li class="spaced">S</li>
+                    <li class="ghost">I</li>
+                    <li class="ghost">N</li>
+                    <li class="ghost">G</li>
+                    <li class="ghost">L</li>
+                    <li class="ghost">A</li>
+                </ul>
             <h6>Ideator | Creator | Engineer</h6>
         </div>
     </header>
@@ -36,11 +55,11 @@
 
     <section class="about" id="about">
         <div class="container">
-            <div class="profileImg">
+            <div class="profileImg" data-aos="fade-right" data-aos-delay="300">
                 <img src="images/profileImage.jpg" alt="" class="profileImg">
             </div>
-            <div class="aboutDetails">
-                <div class="aboutHeading">
+            <div class="aboutDetails" data-aos="fade-left" data-aos-delay="700">
+                <div class="aboutHeading" >
                     <h1>About</h1>
                     <h6>Me</h6>
                 </div>
@@ -73,42 +92,40 @@
 
     <section class="services" id="services">
         <div class="container">
-            <div class="sectionHeading">
-                <h1>Services</h1>
-                <h6>What all i know :P</h6>
+            <div class="sectionHeading" data-aos="fade-down" data-aos-delay="200">
+                <h1>Skilss</h1>
+                <h6>Not all my skills are listed below!!</h6>
             </div>
             <div class="mySkills">
-                <div class="skill">
+                <div class="skill" data-aos="fade-right" data-aos-delay="500">
                     <div class="iconContainer">
                         <i class="fas fa-layer-group"></i>
                     </div>
-                    <h1>WebDesign</h1>
-                    <p>this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text
-                            this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text
-                            this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text
-                            this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text
+                    <h1>Ideator</h1>
+                    <p>
+                        From ideating to final product, all at one place. 
+                        Been part of great teams and have created brilliant projects, and trust me Ideation is really the main thing.
                     </p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-up" data-aos-delay="700">
                     <div class="iconContainer">
-                        <i class="fas fa-chart-bar"></i>
+                        <i class="fas fa-code"></i>
                     </div>
-                    <h1>WebDesign</h1>
-                    <p>this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text
-                            this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text
-                            this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text
-                            this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text
+                    <h1>Progammer/Developer</h1>
+                    <p>
+                        I can code in multiple languages, afterall it is all about Syntax. Nevermind,
+                        I love to code in Python, JS, and a little bit of Java. I have done good amount of Arduino and Matlab Programming as well.
+                        Easy to work in Django, Flask, Node.
                     </p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-left" data-aos-delay="1000">
                     <div class="iconContainer">
-                        <i class="fas faLayerGroup"></i>
+                        <i class="fas fa-layer-group"></i>
                     </div>
-                    <h1>WebSite</h1>
-                    <p>this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text
-                            this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text
-                            this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text
-                            this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text this is dummy text
+                    <h1>Data Science</h1>
+                    <p>
+                        Work very well with most of Machine Learning Models yet do not consider myself in the field of Machine Learning. Good with manipulation
+                        of data. Worker of numpy, pandas & matplotlib.
                     </p>
                 </div> 
             </div>
@@ -116,47 +133,51 @@
     </section>
     <section class="portfolio" id="portfolio">
             <div class="portfolio">
-                <div class="sectionHeading">
+                <div class="sectionHeading" data-aos="fade-top" data-aos-delay="200">
                     <h1>Portfolio</h1>
-                    <h6>View my recent Work</h6>
+                    <h6>Almost Every Project that one might find interesting</h6>
                 </div>
                 <div class="portfolioItem">
-                    <div class="portfolioImg hasMarginRight hasMarginLeft">
+                    <div class="portfolioImg hasMarginRight hasMarginLeft" data-aos="flip-right" data-aos-delay="500">
                         <img src="images/portfolioImg1.jpg" class="portfolioImgCircular">
                     </div>
-                    <div class="portfolioDescription">
-                        <h6>Project 1</h6>
-                        <h1>Project name</h1>
+                    <div class="portfolioDescription" data-aos="fade-down-left" data-aos-delay="800">
+                        <h6>Still In the 'Q'</h6>
+                        <h1>'Q'rED</h1>
                         <p>
-                            project Description
+                            Ever been to the 'Q's of CNG station? Tiring aren't they! So here is one solution,
+                            We will tell you the waiting time of all the nearest Stations, and also what time you might need to get there
                         </p>
                         <a href=" " class="cta">View Details</a>
                     </div>
                 </div>
 
                 <div class="portfolioItem">
-                    <div class="portfolioDescription hasMarginRight hasMarginLeft">
-                            <h6>Project 2</h6>
-                            <h1>Project name 2</h1>
+                    <div class="portfolioDescription hasMarginRight hasMarginLeft"data-aos="fade-up-right" data-aos-delay="200">
+                            <h6>That Beard Looks Jawless</h6>
+                            <h1>trimMe</h1>
                             <p>
-                                Project Description 2
+                                It was the second project that I took over and worked in the team of 4 for the IED course,
+                                 We designed a trimming machine which will trim the style one wants to achieve with only few inputs of the user,
+                                 and obviously the face.
                             </p>
                             <a href=" " class="cta">View Details</a>
-                        </div>
-                    <div class="portfolioImg">
+                    </div>
+                    <div class="portfolioImg" data-aos="flip-left" data-aos-delay="500">
                         <img src="images/portfolioImg2.jpeg" class="portfolioImgCircular">
                     </div>
                     
                 </div>
                 <div class="portfolioItem">
-                    <div class="portfolioImg hasMarginLeft hasMarginRight">
+                    <div class="portfolioImg hasMarginLeft hasMarginRight" data-aos="flip-up" data-aos-delay="200">
                         <img src="images/portfolioImg3.jpeg" class="portfolioImgCircular">
                     </div>
-                    <div class="portfolioDescription">
-                        <h6>Project 3</h6>
-                        <h1>Project name 3 </h1>
+                    <div class="portfolioDescription" data-aos="fade-up" data-aos-delay="500">
+                        <h6>Same attire, Same Crowd, NEVER AGAIN!</h6>
+                        <h1>dressMe</h1>
                         <p>
-                            project Description 3
+                            Handled the Machine learning segment of the project which predicts if the person is looking presentable for the event, and 
+                            also shows all the dress with all the faces that have seen you in that dress. Trust me it Works!!
                         </p>
                         <a href=" " class="cta">View Details</a>
                     </div>
@@ -167,28 +188,28 @@
 
     <section class="experience" id="experience">
             <div class="container">
-                <div class="sectionHeading">
-                    <h1>Work Experience</h1>
-                    <h6>Past and Current Jobs</h6>
+                <div class="sectionHeading" data-aos="fade-down" data-aos-delay="200">
+                    <h1>Life-Line</h1>
+                    <h6>Almost Nothing to Show</h6>
                 </div>
                 <div class="timeline">
                     <ul>
-                        <li class="date" data-date="2018 - Present">
-                            <h1>Place1</h1>
+                        <li class="date" data-date="2018 - Present" data-aos="zoom-up" data-aos-delay="500">
+                            <h1>'Q'rED</h1>
                             <p>
-                                job description
+                                Founder, Ideator.
                             </p>
                         </li>
-                        <li class="date" data-date="2010 - 2018">
-                            <h1>Place1</h1>
+                        <li class="date" data-date="2002 - 2018" data-aos="zoom-up" data-aos-delay="700">
+                            <h1>School</h1>
                             <p>
-                                job description
+                                Did almost everything that one can do in School life.
                             </p>
                         </li>
-                        <li class="date" data-date="1999 - 2010">
-                            <h1>Place1</h1>
+                        <li class="date" data-date="1999 - 2002" data-aos="zoom-up" data-aos-delay="1000">
+                            <h1>Home</h1>
                             <p>
-                                job description
+                                No clue what that phase of life was like.
                             </p>
                         </li>
                     </ul>
@@ -198,24 +219,18 @@
 
     <section class="contact" id="contact">
             <div class="container">
-                <div class="sectionHeading">
+                <div class="sectionHeading" data-aos="fade-left" data-aos-delay="300">
                     <h1>Lets Talk</h1>
-                    <h6>Lets Work Together</h6>
+                    <h6>Always free to discuss New Ideas</h6>
                 </div>
-                <form action="">
+                <form action="" data-aos="zoom-up" data-aos-delay="500">
                     <label for="name">Name: </label>
                     <input type="text" id = "name" name="name" placeholder="Enter Your Name" required>
                     <label for="email">Email: </label>
                     <input type="email" id = "email" name="email" placeholder="Enter Your Email" required>
-                    <label for="email">Services:</label>
-                    <select name="services" id ="services">
-                        <option value="">option 1</option>
-                        <option value="">option 2</option>
-                        <option value="">option 3</option>
-                    </select>
-                    <label for="subject">Subject: </label>
+                    <label for="subject">What You want to talk about? </label>
                     <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-                    <input type="submit" value="SUbmit">
+                    <input type="submit" value="Submit">
                 </form>
             </div>
     </section>
@@ -227,7 +242,7 @@
             
         </div>
         <p>
-                &copy 2019 Utsav Singla
+                Made with <i class="fas fa-heart"></i> by Utsav Singla
         </p>
     </footer>
 
