@@ -17,6 +17,9 @@ body{
 
 }
 
+section{
+    padding: 6rem;
+}
 
 a{
     text-decoration: none;
@@ -89,6 +92,17 @@ img{
     font-weight: 300;
 
 }
+
+.hasMarginRight{
+    margin-right:5rem; 
+}
+
+.hasMarginLeft{
+    margin-left: 2rem;
+}
+
+
+/*  */
 
 header{
      width:100%;
@@ -207,12 +221,12 @@ li{
     padding: 1rem;
     user-select: none;
 }
+
 .landingText h6{
     font-size: 2rem;
     font-weight: 300;
     
 }
-
 
 /*about Section*/
 
@@ -233,7 +247,6 @@ li{
 .aboutHeading h1{
     font-size: 8rem;
     opacity: .5;
-
 }
 .aboutHeading h6{
     font-size: 5rem;
@@ -267,9 +280,9 @@ li{
 
 
 .mySkills{
-    margin-top: 0.2rem;
+    margin-top: 10rem;
     display: grid;
-    grid-template-columns: repeat(auto,minmax(25rem,1fr)) ;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr)) ;
     grid-gap: 2.5rem;
     text-align: center;
 } 
@@ -291,15 +304,76 @@ li{
     width: 10rem;
     height: 10rem;
     border: 3px solid #0e012e;
+    border-radius: 50%;
     background-color: rgb(34, 4, 151);
     /* align-items: center; */
     margin-bottom: 2rem;
     display: flex;
     /* transform: rotate(45deg) */
+    transition: color 1500ms;
 }
+
+.iconContainer:hover{
+    background-color: aqua;
+}
+
 .iconContainer i{
     color: darkblue;
     font-size: 5rem;
     margin: auto;
     /* transform: rotate(-45deg); */
 }
+
+
+.portfolioItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.portfolioItem:last-child{
+    margin-bottom: 0rem;
+}
+
+.portfolioImg{
+    width: 50rem;
+    flex:1;
+    border: #080106;
+    border-width: 5rem;
+}
+
+.portfolioImgCircular{
+    height:100vh;
+    /* border-radius: 50%; */
+}
+.portfolioDescription{
+    flex:1;
+}
+
+.portfolioDescription h1{
+    font-size: 3rem;
+    /* text-transform:  uppercase; */
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.portfolioDescription h6{
+    font-size: 1.5rem;
+    text-transform:  uppercase;
+    font-weight: 300;
+    opacity: 0.3;
+}
+
+.portfolioDescription .cta{
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: darkblue;
+    transition: color 300ms;
+}
+.portfolioDescription .cta:hover{
+    color: white;
+}
+
