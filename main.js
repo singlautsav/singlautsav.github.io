@@ -8,17 +8,17 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.aboutHeading').mouseover(function(){
         // $('.aboutHeadingH1').css('text-align',"left");
-        $('.aboutHeadingH1').css('font-size',"5rem");
-        $('.aboutHeadingH1').css('opacity',".1");
-        $('.aboutHeadingH6').css('text-align',"center");
-        $('.aboutHeadingH6').css('opacity',"0.9");
-        $('.aboutHeadingH6').css('font-size',"13rem");
+        $(this).find('h1').css('font-size',"5rem");
+        $(this).find('h1').css('opacity',".1");
+        $(this).find('h6').css('text-align',"center");
+        $(this).find('h6').css('opacity',"0.9");
+        $(this).find('h6').css('font-size',"13rem");
     })
     $('.aboutHeading').mouseout(function(){
-        $('.aboutHeadingH1').css('text-align',"center");
-        $('.aboutHeadingH1').css('font-size',"8rem");
-        $('.aboutHeadingH6').css('text-align',"center");
-        $('.aboutHeadingH6').css('font-size',"5rem");
+        $(this).find('h1').css('text-align',"center");
+        $(this).find('h1').css('font-size',"8rem");
+        $(this).find('h6').css('text-align',"center");
+        $(this).find('h6').css('font-size',"5rem");
     })
 })
 
@@ -26,23 +26,23 @@ $(document).ready(function(){
     $('.landingText').mouseover(function(){
         $('.bar').css('background','linear-gradient(to top, black,white)');
 
-        $('h1').css('background','linear-gradient(to top, black,white)');
-        $('h1').css("-webkit-background-clip","text");
-        $('h1').css('-webkit-text-fill-color', 'transparent');
+        $(this).find('h1').css('background','linear-gradient(to top, black,white)');
+        $(this).find('h1').css("-webkit-background-clip","text");
+        $(this).find('h1').css('-webkit-text-fill-color', 'transparent');
 
-        $('h6').css('background','linear-gradient(to top,  #7053b4,#080106)');
-        $('h6').css("-webkit-background-clip","text");
-        $('h6').css('-webkit-text-fill-color', 'transparent');
+        $(this).find('h6').css('background','linear-gradient(to top,  #7053b4,#080106)');
+        $(this).find('h6').css("-webkit-background-clip","text");
+        $(this).find('h6').css('-webkit-text-fill-color', 'transparent');
     })
     $('.landingText').mouseout(function(){
         $('.bar').css('background','linear-gradient(to top,  #7053b4,#080106)');
 
-        $('h1').css('background','linear-gradient(to top,  #7053b4,#080106)');
-        $('h1').css("-webkit-background-clip","text");
-        $('h1').css('-webkit-text-fill-color', 'transparent');
+        $(this).find('h1').css('background','linear-gradient(to top,  #7053b4,#080106)');
+        $(this).find('h1').css("-webkit-background-clip","text");
+        $(this).find('h1').css('-webkit-text-fill-color', 'transparent');
 
-        $('h6').css('background','linear-gradient(to top, black,white)');
-        $('h6').css("-webkit-background-clip","text");
-        $('h6').css('-webkit-text-fill-color', 'transparent');
+        $(this).find('h6').css('background','linear-gradient(to top, black,white)');
+        $(this).find('h6').css("-webkit-background-clip","text");
+        $(this).find('h6').css('-webkit-text-fill-color', 'transparent');
     })
 })
