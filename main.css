@@ -132,7 +132,7 @@ header{
 }
 
 li{
-    margin: 0.2rem;
+    margin: 0.1rem;
 }
 .navLink{
     font-family: 'The Historia Demo', sans-serif;
@@ -229,7 +229,7 @@ li{
     display: inline-block;
     float: left;
     font-weight: 700;
-    font-size: 6vw;
+    font-size: 4vw;
     color: #fff;
     opacity: 1;
     transition: all 0.5s ease-in-out;
@@ -380,8 +380,8 @@ li{
 }
 
 .portfolioImg{
-    height: 50%;
-    width: 50%;
+    height: 10%;
+    width: 10%;
     flex:1;
     margin-right: 5rem;
     border-radius: 50%;
@@ -569,14 +569,14 @@ input[type="submit"]:hover{
 
 @keyframes pulse{
     0%{
-        box-shadow: 0 0 0 0 #7053b4
+        box-shadow: 0 0 0 0 #8e87a1
     }
     50%{
-        box-shadow: 0 0 0 2vw rgba(3, 182, 236, 0)
+        box-shadow: 0 0 0 2vw rgba(150, 156, 158, 0)
     }
     100%{
 
-        box-shadow: 0 0 0 0 #7053b4
+        box-shadow: 0 0 0 0 #888888
     }
 }
 

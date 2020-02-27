@@ -75,14 +75,14 @@ $(document).ready(function(){
         $(this).find('h1').css("-webkit-background-clip","text");
         $(this).find('h1').css('-webkit-text-fill-color', 'transparent');
 
-        $(this).find('h6').css('background','linear-gradient(to top,  #7053b4,#080106)');
+        $(this).find('h6').css('background','linear-gradient(to top,  white,black)');
         $(this).find('h6').css("-webkit-background-clip","text");
         $(this).find('h6').css('-webkit-text-fill-color', 'transparent');
     })
     $('.landingText').mouseout(function(){
         $('.bar').css('background','linear-gradient(to top,  #7053b4,#080106)');
 
-        $(this).find('h1').css('background','linear-gradient(to top,  #7053b4,#080106)');
+        $(this).find('h1').css('background','linear-gradient(to top,  white,black)');
         $(this).find('h1').css("-webkit-background-clip","text");
         $(this).find('h1').css('-webkit-text-fill-color', 'transparent');
 
